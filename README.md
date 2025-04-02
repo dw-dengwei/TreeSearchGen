@@ -24,7 +24,7 @@ This paper considers 3D indoor scene generation as a planning problem subject to
 
 Code coming soon 👊
 
-This repository contains the official implementation of Global-Local Tree Search for Language Guided 3D Scene Generation
+This repository contains the official implementation of Global-Local Tree Search in VLMs for 3D Indoor Scene Generation
 
 
 </div>
