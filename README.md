@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>
-Global-Local Tree Search for Language Guided 3D Scene Generation (CVPR 2025)
+Global-Local Tree Search in VLMs for 3D Indoor Scene Generation (CVPR 2025)
 </h1>
 
 <div>
