@@ -1,0 +1,17 @@
+tree_width:
+  floor:
+    anchor: 2
+    others:
+      self: 2
+      direction: 1
+      draw_dir: 1
+      offset: 1
+      center_x_or_y_around_alignment: 1
+  supported:
+    anchor: 2
+    others:
+      self: 2
+      direction: 1
+      draw_dir: 1
+      offset: 1
+      center_x_or_y_around_alignment: 1

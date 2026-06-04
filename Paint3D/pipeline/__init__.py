@@ -1,0 +1,3 @@
+from .controlnet_inpaint import StableDiffusionControlNetInpaintPipeline
+from .controlnet_img2img import StableDiffusionControlNetImg2ImgPipeline
+from .controlnet import StableDiffusionControlNetPipeline
