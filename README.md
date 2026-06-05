@@ -17,7 +17,7 @@
 
 <h2>Global-Local Monte Carlo Tree Search in Vision-Language Models for Text-to-3D Indoor Scene Generation (arXiv 2026)</h2>
 <div>
-    <a href='https://dw-dengwei.cn/' target='_blank'>Mengshi Qi</a><sup>*</sup>&emsp;
+    <a href='https://jueduilingdu.github.io/' target='_blank'>Mengshi Qi</a><sup>*</sup>&emsp;
     <a href='https://dw-dengwei.cn/' target='_blank'>Wei Deng</a>&emsp;
     Xianlin Zhang&emsp;
     Huadong Ma&emsp;
