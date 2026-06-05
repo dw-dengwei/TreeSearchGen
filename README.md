@@ -1,33 +1,34 @@
 <div align="center">
 
-<h1>Global-Local Tree Search in VLMs for 3D Indoor Scene Generation (CVPR 2025)</h1>
-
+<h2>Global-Local Tree Search in VLMs for 3D Indoor Scene Generation (CVPR 2025)</h2>
 <div>
     <a href='https://dw-dengwei.cn/' target='_blank'>Wei Deng</a>&emsp;
     <a href='https://jueduilingdu.github.io/' target='_blank'>Mengshi Qi</a><sup>*</sup>&emsp;
     Huadong Ma&emsp;
 </div>
-<div>
-    State Key Laboratory of Networking and Switching Technology, BUPT, China;
-    <br>
-   <sup>*</sup>corresponding author
-</div>
-
-<strong>
-This paper considers 3D indoor scene generation as a planning problem subject to spatial and layout common sense constraints. To solve the problem with a VLM, we propose a new global-local tree search algorithm.
-</strong>
-
-<img src='https://github.com/dw-dengwei/TreeSearchGen/blob/main/assets/image.png' width="100%">
-
-[![CVPR 2025](https://img.shields.io/badge/CVPR-2025-blue.svg)](https://cvpr.thecvf.com/)
-[![arXiv](https://img.shields.io/badge/arXiv-2503.16113-b31b1b.svg)](https://arxiv.org/abs/2503.16113)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-</div>
-
-## 📄 Abstract
+<p>
+    <a href='https://cvpr.thecvf.com/'><img src='https://img.shields.io/badge/CVPR-2025-blue.svg' alt='CVPR 2025'></a>
+    <a href='https://arxiv.org/abs/2503.16113'><img src='https://img.shields.io/badge/arXiv-2503.16113-b31b1b.svg' alt='arXiv 2025'></a>
+    <a href='LICENSE'><img src='https://img.shields.io/badge/License-Apache%202.0-green.svg' alt='Apache 2.0'></a>
+</p>
 
 > This paper considers 3D indoor scene generation as a planning problem subject to spatial and layout common sense constraints. To solve the problem with a VLM, we propose a new global-local tree search algorithm that decomposes the generation process into hierarchical planning stages, leveraging tree search to explore and optimize the layout at both global room-level and local object-level granularity.
+
+
+<h2>Global-Local Monte Carlo Tree Search in Vision-Language Models for Text-to-3D Indoor Scene Generation (arXiv 2026)</h2>
+<div>
+    <a href='https://dw-dengwei.cn/' target='_blank'>Mengshi Qi</a><sup>*</sup>&emsp;
+    <a href='https://dw-dengwei.cn/' target='_blank'>Wei Deng</a>&emsp;
+    Xianlin Zhang&emsp;
+    Huadong Ma&emsp;
+</div>
+<p>
+    <a href='https://arxiv.org/abs/2606.06002'><img src='https://img.shields.io/badge/arXiv-2606.06002-b31b1b.svg' alt='arXiv 2026'></a>
+    <a href='LICENSE'><img src='https://img.shields.io/badge/License-Apache%202.0-green.svg' alt='Apache 2.0'></a>
+</p>
+</div>
+
+> This paper is an extension of our CVPR 2025 paper. We integrate PRM-guided MCTS for tree search and a new re-texture pipeline, and propose a pipeline, 3DTindo-Bench for text-to-3D scene generation.
 
 ## 🛠️ Setup
 
@@ -134,6 +135,13 @@ If you find this work useful, please cite:
   author={Deng, Wei and Qi, Mengshi and Ma, Huadong},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2025}
+}
+
+@article{qi2026global,
+  title={Global-Local Monte Carlo Tree Search in Vision-Language Models for Text-to-3D Indoor Scene Generation},
+  author={Qi, Mengshi and Deng, Wei and Zhang, Xianlin and Ma, Huadong},
+  journal={arXiv preprint arXiv:2606.06002},
+  year={2026}
 }
 ```
 
